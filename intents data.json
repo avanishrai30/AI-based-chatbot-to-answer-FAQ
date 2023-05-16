@@ -1,0 +1,892 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hello",
+                                "Good day",
+                                "Whats up",
+                                "how are ya",
+                                "heyy",
+                                "whatsup"
+                        ],
+                        "responses": [
+                                "Hello!",
+                                "Good to see you again!",
+                                "Hi there, how can I help?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "student chapter",
+                        "patterns": [
+                                "What are different student chapters in Chandigarh University?",
+                                "Student chapters in Chandigarh University",
+                                "Student chapters in IT department?",
+                                "various student chapters in college?",
+                                "Which student chapters are present in Chandigarh University?",
+                                "Are there any student chapters in Chandigarh University?",
+                                "Co-circular activities",
+                                "what contributes students academic development?"
+                        ],
+                        "responses": [
+                                "There are many professional chapters in Chandigarh University that contribute in students co circular activities.\n ISOI -The Society of Instrumentation professionals \n IETE - Institution of Electronics and Telecommunication Engineers \n SAE - Society of Automotive Engineers \n ASME- American Society of Mechanical Engineers \n IEI- Institution of Engineers (India) \n ACM - Association for Computing Machinery \n IEEE - Institute of Electrical and Electronics Engineers \n CSI - Computer Society of India \n ISTE - Indian Society for Technical Education \n CEA ICI and IGBC"
+                        ],
+                        "context_set": ""
+
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "cya",
+                                "see you",
+                                "bye bye",
+                                "See you later",
+                                "Goodbye",
+                                "I am Leaving",
+                                "Bye",
+                                "Have a Good day",
+                                "talk to you later",
+                                "tyyl",
+                                "i got to go",
+                                "gtg"
+                        ],
+                        "responses": [
+                                "Sad to see you go :(",
+                                "Talk to you later",
+                                "Goodbye!",
+                                "Come back soon"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "CU",
+                        "patterns": [
+                                "Tell me about Chandigarh University",
+                                "Give me information about Chandigarh University?",
+                                "about Chandigarh University?",
+                                "Ranking of Chandigarh University?",
+                                "CU ranking",
+                                "Information on CU"
+                               ],
+                        "responses": [
+                                "Vallurupalli Nageswara Rao Vignana Jyothi Institute of Engineering and Technology (Chandigarh University) is an engineering college in Hyderabad,\n India recognized by All India Council for Technical Education(AICTE) and\n affiliated to the Jawaharlal Nehru Technological University, Hyderabad."
+                                ],
+                          "context_set": ""
+                 
+                },
+                {
+                        "tag": "Vision",
+                        "patterns": [
+                                "Chandigarh University vision for the future?",
+                                "What is the vision of CUvjiet",
+                                "vision of college",
+                                "Chandigarh University vision",
+                                "CU vision",
+                                "Vision of CU"
+                               ],
+                        "responses": [
+                                "Chandigarh University VISION-To be a World Class University providing value-based education, conducting interdisciplinary research in cutting edge technologies leading to sustainable socio-economic development of the nation."
+                                ],
+                          "context_set": ""
+                 
+                },
+                
+                {
+                        "tag": "Theme",
+                        "patterns": [
+                                "Chandigarh University theme for the future?",
+                                "What is the theme of CUvjiet",
+                                "theme of college",
+                                "Chandigarh University theme",
+                                "CU theme",
+                                "theme of CU"
+                               ],
+                        "responses": [
+                                "VJ THEME-Vignana Jyothi as an educational group believes in our significant differentiators.\n Our first differentiator among their top institutions is that while others focus only on one word SUCCESS, we focus on three vital words, empathy, happiness, and success and in this specific order.\n Our faculty are trained accordingly and they have great pride in it."
+                                ],
+                          "context_set": ""
+                 
+                },
+                {
+                        "tag": "Differentiators",
+                        "patterns": [
+                                "Chandigarh University differentiators till now?",
+                                "What are differentiators of CUvjiet?",
+                                "differentiators of college",
+                                "Chandigarh University differentiators",
+                                "CU differentiators",
+                                "differentiators of CU"
+                               ],
+                        "responses": [
+                                " Career Vision,Induction Program, MTP(Mentoring , training and placement),CU Lab Protocol, Domain Industry Exposure, Cross Domain Knowledge Centres, Content Development, Development of Rounded Personality, Finishing School, Institute Calendar, Wit and Wil Methodology, Project Arcade, Time management System, Organization structure all of these constitute for college differentiators."
+                                ],
+                          "context_set": ""
+                 
+                },
+                {
+                        "tag": "Mission",
+                        "patterns": [
+                                "Chandigarh University mission for the future?",
+                                "What is the mission of CUvjiet",
+                                "mission of college",
+                                "Chandigarh University mission",
+                                "CU mission",
+                                "Mission on CU"
+                               ],
+                        "responses": [
+                                "Chandigarh University MISSION-To produce technically competent and socially responsible engineers, managers and entrepreneurs, who will be future ready.\n To involve students and faculty in innovative research projects linked with industry, academic and research institutions in India and abroad.\n To use modern pedagogy for improving the teaching-learning process."
+                                ],
+                          "context_set": ""
+                 
+                },
+                {
+                        "tag": "name",
+                        "patterns": [
+                                "name",
+                                "your name",
+                                "do you have a name",
+                                "what are you called",
+                                "what is your name",
+                                "what should I call you",
+                                "whats your name?",
+                                "what are you",
+                                "who are you",
+                                "who is this",
+                                "what am i chatting to",
+                                "who am i taking to",
+                                "what are you"
+                        ],
+                        "responses": [
+                                "You can call me Chandigarh University BOT.",
+                                "I'm Chandigarh University "
+                               
+                        ],
+                        "context_set": ""
+                },
+            
+                {
+                        "tag": "hours",
+                        "patterns": [
+                                "timing of college",
+                                "what is college timing",
+                                "working days",
+                                "when are you guys open",
+                                "what are your hours",
+                                "hours of operation",
+                                "when is the college open",
+                                "college timing",
+                                "what about college timing",
+                                "is college open on saturday",
+                                "tell something about college timing",
+                                "what is the college  hours",
+                                "when should i come to college",
+                                "when should i attend college",
+                                "what is my college time",
+                                "college timing",
+                                "timing college"
+                        ],
+                        "responses": [
+                                "College is open 9am-5pm Monday-Saturday!\n Second Saturday is holiday;)"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "IT HOD",
+                        "patterns":[
+                          "Who is the HOD of IT department?", 
+                          "Who is the Head of the department in IT department?",
+                          "Who is the Head of the department of Information Technology?",
+                          "What is IT HOD name?",
+                          "who is the head of IT department?"
+                        ], 
+                        "responses": [
+                          "IT HOD - Dr. G. Suresh Reddy",
+                          "The head of IT department is Dr. G. Suresh Reddy.",
+                        "Dr. G. Suresh Reddy is head of IT department and visit  http://www.CUvjiet.ac.in/hodit.pdf to know more."]
+                      },
+                {
+                        "tag": "IT department",
+                        "patterns":[
+                          "Tell me about IT department?", 
+                          "IT DEPARTMENT", 
+                          "department of Information Technology?",
+                          "Information technology",
+                          "What do you know about IT department",
+                          "briefly about IT department?"
+                        ], 
+                        "responses": [
+                          "The department of Information Technology was established in the year 1997 with an annual intake of 60, increased to 180 in the year 2017. \n M.Tech(CNIS) Programme started in the year 2013 with an intake of 18. \n It has all infrastructural facilities required for imparting high quality education and the department is fully structured to meet the contemporary needs of the industry. \n Imparting high quality education is supported by well qualified and experienced faculty, further support is extended by technically skilled and competent programmers."]
+                },
+                {
+                        "tag": "PG Programs",
+                        "patterns":[
+                          "post graduation programs in CUvjiet?", 
+                          "PG programs offered at Chandigarh University?", 
+                          "PG courses offered?",
+                          "PG program",
+                          "Post graduation programs"
+                        ], 
+                        "responses": [
+                          "PG PROGRAMMES IN Chandigarh University: \n Master of Technology [M.Tech] (CAD/ CAM)\n Master of Technology [M.Tech] (Computer Science and Engineering)\n Master of Technology [M.Tech] (Electronics and Instrumentation Engineering) \n Master of Technology [M.Tech] (Highway Engineering)\n Master of Technology [M.Tech] (Geo Technical Engineering) \n Master of Technology [M.Tech] (Power Electronics) \n Master of Technology [M.Tech] (Power System Engineering) \n Master of Technology [M.Tech] (Software Engineering) \n Master of Technology [M.Tech] (Structural Engineering) \n Master of Technology [M.Tech] (Computer Networks and Information Technology)\n Master of Technology [M.Tech] (Embedded Systems)"]
+                },
+                {
+                        "tag": "location",
+                        "patterns": [
+                                "where is the college located",
+                                "college is located at",
+                                "where is college",
+                                "where is college located",
+                                "address of college",
+                                "how to reach college",
+                                "college location",
+                                "college address",
+                                "wheres the college",
+                                "how can I reach college",
+                                "whats is the college address",
+                                "what is the address of college",
+                                "address",
+                                "location"
+                        ],
+                        "responses": [
+                                "Chandigarh University is located at Vignana Jyothi Nagar,Pragathi Nagar, Nizampet(S.O, Hyderabad, Telangana 500090.\n Google maps location: https://www.google.com/maps/dir/17.5055792,78.4183459/where+is+CUvjiet/@17.5226328,78.3893711,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bcb8e0ab28e0975:0x7b048b2858fdee94!2m2!1d78.3862931!2d17.5388821"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "number",
+                        "patterns": [
+
+                                "more info",
+                                "contact info",
+                                "how to contact college",
+                                "college telephone number",
+                                "college number",
+                                "What is your contact no",
+                                "Contact number?",
+                                "how to call you",
+                                "College phone no?",
+                                "how can i contact you",
+                                "Can i get your phone number",
+                                "how can i call you",
+                                "phone number",
+                                "phone no",
+                                "call"
+                        ],
+                        "responses": [
+                                "You can contact at 040 2304 2760"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "clubs",
+                        "patterns": [
+                        "What are different clubs in Chandigarh University?" ,
+                        "what are extra-circular activities in Chandigarh University?",
+                        "clubs in CU",
+                        "How many clubs does college have?",
+                        "clubs",
+                        "are there any clubs?",
+                        "Stentorian",
+                        "Creative arts",
+                        "Vj sahitivanam",
+                        "VJ theatro",
+                        "dramatrix",
+                        "literature club",
+                        "singing club",
+                        "crescendo",
+                        "livewire",
+                        "dance club",
+                        "choreo club",
+                        "arts club",
+                        "shortfilm club",
+                        "english literature club",
+                        "telugu club",
+                        "telugu literature club"
+
+                        ],
+                        "responses": [
+                        "There are 9 clubs 1)STENTORIAN - ENGLISH LITERATURE CLUB ;\n 2) VIGNANA JYOTHI SAHITIVANAM - TELUGU LITERATURE CLUB \n;3)VJ THEATRO ; 4) DRAMATRIX;5)SCINTILLATE -PHOTOGRAPHY;\n6)CREATIVE ARTS - ARTS CLUB; 7)LIvE WIRE- DANCE CLUB ;\n 8) NSS - SOCIAL SERVICE CLUB ; 9)CRESCENDO- MUSIC CLUB"
+                        ],
+                        "context_set": ""
+                 },
+                 {
+                        "tag":"IT or CSE",
+                        "patterns":[
+                                "What is the difference between IT and CSE?",
+                                "Which is prefereably better IT or CSE?",
+                                "What do they teach in IT?",
+                                "What do they teach in CSE",
+                                "IT or CSE",
+                                "Which branch do companies prefer CSE or IT?",
+                                "about IT and CSE?",
+                                "It and cse which is better",
+                                "it and cse what to choose",
+                                "IT vs CSE?"      
+                                
+                        ],
+                        "responses":[
+                                "Computer Science Engineering deals with the design and development of computer components, whereas,\n Information Technology is the branch of Engineering that deals with the application of computers in businesses."
+                        ]
+                },
+                {
+                        "tag": "course",
+                        "patterns": [
+                                "list of courses",
+                                "list of courses offered",
+                                "list of courses offered in CUvjiet",
+                                "what are the courses offered in your college?",
+                                "courses?",
+                                "courses offered",
+                                "courses offered in CUvjiet",
+                                "courses you offer",
+                                "branches?",
+                                "courses available at CU?",
+                                "branches available at CU?",
+                                "what are the courses in CU?",
+                                "what are branches in CU?",
+                                "what are courses in CU?",
+                                "branches available in CU?",
+                                "can you tell me the courses available in CU?",
+                                "can you tell me the branches available in CU?",
+                                "different branches",
+                                "different courses",
+                                "branches available?",
+                                "different departments available",
+                                "different departments",
+                                "certification courses offered ",
+                                "certification course",
+                                "training programs",
+                                "training",
+                                "special training"
+                               
+                        ],
+                        "responses": [
+                                " CUvjiet has 1)IT 2)CIVIL 3)EEE 4)MECHANICAL 5)ECE 6)CSE 7)EIE 8)AE 9)HUMANITY AND SCIENCES.\n Recently new courses under CSE - CS AI/ML \n CS DATA SCIENCE\n CS CYBER SECURITY \n CS IOT \n CS BS \n Additionally ,There are many training courses offered in Chandigarh University.\nSpecial coding programs are offered in almost every branch of CUvjiet.\n In CSE & IT department, they offer training on Full stack, data science,AI, ML and programing languages.\n In EEE,EIE &ECE they offer IOT training sessions. "
+                        ],
+                        "context_set": ""
+                },
+               {
+                        "tag":"admissions",
+                        "patterns":[
+                                "what is the admission process at CUvjiet?",
+                                "Admission process",
+                                "admit process",
+                                "admitted",
+                                "admit",
+                                "How to get seat in college",
+                                "seat",
+                                "seat in college",
+                                "NRI category",
+                                "eamcet",
+                                "Mains",
+                                "How can I get into Chandigarh University?", 
+                                "getting into Chandigarh University?",
+                                "got seat in college?",
+                                "what is the process of admission",
+                                "what is the admission process",
+                               "How to take admission in your college",
+                                "What is the process for admission",
+                                "admission",
+                                "admission process",
+                                "process to admit",
+                                "admit in college?"
+                        ],
+                        "responses":["A Student at CU can be admitted in 3 ways 1)A-cat(eamcet,spot admissions) 2)B-cat(jee main) 3)Nri(12th marks).Last year cutoff ranks are provided for reference http://www.CUvjiet.ac.in/download/admissions/FIRST_LAST_EAMCET_2019_RANKS.pdf"],
+                        "context_set": ""
+               },
+               {
+                        "tag": "fees",
+                        "patterns": [
+                                "information about fee",
+                                "information on fee",
+                                "tell me the fee",
+                                "college fee",
+                                "fee per semester",
+                                "what is the fee of each semester",
+                                "what is the fees of each year",
+                                "what is fee",
+                                "what is the fees",
+                                "how much is the fees",
+                                "fees for first year",
+                                "fees",
+                                "about the fees",
+                                "tell me something about the fees"
+                        ],
+                        "responses": [
+                                "For Fee details visit http://www.CUvjiet.ac.in/payment.php"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Governing Council",
+                        "patterns": [
+                                "who are the members of Governing council at CUvjiet?",
+                                "members of governing council.",
+                                "Governing council members",
+                                "DOes the college have a governing council",
+                                "VJ society members?",
+                                "Who all are members of VJ Society?"
+                        ],
+                        "responses": [
+                                "For details about all the members of Governing Council: http://www.CUvjiet.ac.in/gc.php "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hostel",
+                        "patterns": [
+                                "hostel facility",
+                                "hostel servive",
+                                "hostel location",
+                                "hostel address",
+                                "hostel facilities",
+                                "hostel fees",
+                                "Does college provide hostel",
+                                "Is there any hostel",
+                                "Where is hostel",
+                                "do you have hostel",
+                                "do you guys have hostel",
+                                "hostel",
+                                "hostel capacity",
+                                "what is the hostel fee",
+                                "how to get in hostel",
+                                "what is the hostel address",
+                                "how far is hostel from college",
+                                "hostel college distance",
+                                "where is the hostel",
+                                "how big is the hostel",
+                                "distance between college and hostel",
+                                "distance between hostel and college"
+                        ],
+                        "responses": [
+                                " Chandigarh University has well-designed state-of-the-art hostels both for boys and girls.\nIt has lot of facilities from hot water to gym and sport facilities.\n Visit http://CUvjiet.ac.in/hostel.php"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "event",
+                        "patterns": [
+                                "events organised",
+                                "list of events",
+                                "Fests in college",
+                                "fest",
+                                "technical fest",
+                                "cultural fest",
+                                "Does CUvjiet have fests?",
+                                "list of events organised in college",
+                                "list of events conducted in college",
+                                "What events are conducted in college",
+                                "Are there any event held at college",
+                                "Events?",
+                                "functions",
+                                "what are the events",
+                                "tell me about events",
+                                "what about events",
+                                "fests"
+                        ],
+                        "responses": [
+                                "Convergence, Sports Week, Scintillations and various other event conducted in the college.\n For more information you can visit college Website http://www.CUvjiet.ac.in"
+                        ],
+                        "context_set": ""
+                },
+    
+                {
+                        "tag": "syllabus",
+                        "patterns": [
+                                "Syllabus ",
+                                "what is the Engineering syllabus",
+                                "syllabus",
+                                "timetable",
+                                "what is Btech syllabus",
+                                "What do they teach in IT department",
+                                "What do they teach in cse department",
+                                "What do they teach in ece department",
+                                "What do they teach in eee department",
+                                "What do they teach in eie department",
+                                "What do they teach in civil department",
+                                "What do they teach in mechanical department",
+                                "taught",
+                                "teached",
+                                "Where can I find time table",
+                                "time table",
+                                "What is next lecture"
+                        ],
+                        "responses": [
+                                "To know about  syllabus and timetable visit http://www.CUvjiet.ac.in/bsb.php"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "library",
+                        "patterns": [
+                                "is there any library",
+                                "library facility",
+                                "library facilities",
+                                "do you have library",
+                                "does the college have library facility",
+                                "college library",
+                                "where can i get books",
+                                "book facility",
+                                "Where is library",
+                                "Library",
+                                "Tell me about library",
+                                "how many libraries"
+                        ],
+                        "responses": [
+                                "Chandigarh University has central library on first floor near to Show N tell.\n CU VJIET has library with a collection of 15444 titles, 73212 volumes and 13861 reference books.\n It is upgraded with Dspace Digital Library Package comprising of more than 2500 e-books and e-articles.\n It also has the membership of DELNET and British Library for resource sharing.\n Library timings are 9:00 am to 5:00 pm."
+                        ],
+                        "context_set": ""
+                },
+            
+                {
+                        "tag": "canteen",
+                        "patterns": [
+                                "food facilities",
+                                "canteen facilities",
+                                "canteen facility",
+                                "is there any canteen",
+                                "Is there a cafetaria in college",
+                                "Does college have canteen",
+                                "Where is canteen",
+                                "where is cafetaria",
+                                "canteen",
+                                "Cafetaria",
+                                "menu in canteen",
+                                "menu",
+                                "food"
+                        ],
+                        "responses": [
+                                "Chandigarh University has canteen with variety of food available ,types of stalls like \n 1)fast food \n2)bakery \n3)soft drinks \n4)Regular meals \n5)coffee shop \n6)cafeteria"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "placement",
+                        "patterns": [                             
+                                "visit",
+                                "visited",
+                                "visiting",
+                                "place",
+                                "placed",
+                                "placement",
+                                "Placement summary" ,
+                                "Placement",
+                                "placed in amazon?",
+                                "Placed in deloitte?",
+                                "Give me information about placements at Chandigarh University",
+                                "Which companies visit Chandigarh University?",
+                                "How many companies visit Chandigarh University?",                                
+                                "Placement details",
+                                "Details on placements at Chandigarh University",
+                                "Brief details on placements ",
+                                "Placement ", 
+                                "high package",
+                                "higher package",
+                                "highest package",
+                                "maximum package",
+                                "max package",
+                                "highest offer",
+                                "high offer",
+                                "higher offer",
+                                "which company provides highest package at Chandigarh University?",
+                                "which company provides higher package at Chandigarh University?",
+                                "which company provides high package at Chandigarh University?",
+                                "which company provides max package at Chandigarh University?",
+                                "which company provides maximum package at Chandigarh University?",
+                                "highest package",
+                                "average package",
+                                "avg package",
+                                "avg offer",
+                                "average offer",
+                                "what is the average offer at Chandigarh University?",
+                                "on average what is the package offered in CUvjiet?",
+                                "average packages by companies?",
+                                "low package",
+                                "lower package",
+                                "lowest package",
+                                "minimum package",
+                                "min package",
+                                "low offer",
+                                "lower offer",
+                                "howesr offer",
+                                "less package",
+                                "which company provides lowest package at Chandigarh University?",
+                                "least package" 
+
+                                ],
+                        "responses": ["85 Global Companies (26 Core Companies) Recruited 955 Students from 2020 Graduating Batch.\n Amazon SDE Offers highest about 28.75 Lakhs per annum package.\n The highest salary package offered for one of the students from the passed-out batch was 43 LPA\nThe average salary package offered was around 5 LPA-7 LPA while the least is 3.75 lpa.\n Visit http://www.CUvjiet.ac.in/placement.php for more information."],
+    
+                        "context_set": ""
+                },
+               {
+                        "tag":"Preparation",
+                        "patterns":[
+                                "placement preparation",
+                                "preparation",
+                                "prepare placement",
+                                "start placement preparation",
+                                "prepare for placement",
+                                "how to start placements preparation?",
+                                "what is the placement written test pattern?"
+                        ],
+                        "responses":["All the best for your placements,please visit https://tnp.CUvjiet.ac.in/login"],
+                   "context_set": ""
+                },
+                {
+                        "tag": "principal",
+                        "patterns": [
+                                "what is the name of principal",
+                                "whatv is the principal name",
+                                "principal name",
+                                "Who is college principal",
+                                "Where is principal's office",
+                                "principal",
+                                "name of principal"
+                        ],
+                        "responses": [
+                                "Dr.C.D Naidu is the principal of Chandigarh University."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "president",
+                        "patterns": [
+                                "what is the name of president",
+                                "what is the president name",
+                                "president name",
+                                "Who is college president",
+                                "president",
+                                "name of president"
+                        ],
+                        "responses": [
+                                "Dr.D.Nageswara Rao is the president of Chandigarh University. "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "General secretary",
+                        "patterns": [
+                                "what is the name of general secretary",
+                                "what is the general secretary name",
+                                "General secretary name",
+                                "Who is college General secretary",
+                                "General secretary",
+                                "name of General secretary"
+                        ],
+                        "responses": [
+                                "Sri.K.Harishchandra Prasad is the general secretary of Chandigarh University"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "joint secretary",
+                        "patterns": [
+                                "what is the name of joint secretary",
+                                "what is the joint secretary name",
+                                "Joint secretary name",
+                                "Who is college joint secretary",
+                                "Joint secretary",
+                                "name of joint secretary"
+                        ],
+                        "responses": [
+                                "Sri.Kode Durga Prasad, IPS(Retd.) is the joint secretary of Chandigarh University."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Director",
+                        "patterns": [
+                                "what is the name of director",
+                                "what is the director name",
+                                "director name",
+                                "Who is college director",
+                                "Director",
+                                "name of the director"
+                        ],
+                        "responses": [
+                                "Dr.B.Chennakesava Rao is the director of Chandigarh University."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "sem",
+                        "patterns": [
+                                "exam dates",
+                                "exam schedule",
+                                "When is semester exam",
+                                "Semester exam timetable",
+                                "sem",
+                                "semester",
+                                "exam",
+                                "when is exam",
+                                "exam timetable",
+                                "exam dates",
+                                "when is semester"
+                        ],
+                        "responses": [
+                                "Here is the Academic Calendar visit http://www.CUvjiet.ac.in/bac.php"
+                        ],
+                        "context_set": ""
+                },
+                
+                {
+                        "tag": "milestones",
+                        "patterns": [
+                                "What are the milestones of Chandigarh University?",
+                                "milestones",
+                                "Milestones of college till now",
+                                "Milestones of Chandigarh University",
+                                "milestone of CU",
+                                "Milestones achieved by CUvjiet",
+                                "Milestones achieved"
+                        ],
+                        "responses": [
+                                "CU MILESTONES- \n 1. NAAC A++ and Autonomous College with Potential for Excellence by UGC \n 2. Recipient of TEQIP-II Grant from World Bank & FIST from DST \n 3. Accredited by NBA and NIRF Ranking in the band of 101-150 "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "facilities",
+                        "patterns": [
+                                "What facilities college provide",
+                                "facility",
+                                "how are facilities in college",
+                                "College facility",
+                                "What are college facilities",
+                                "facilities",
+                                "facilities provided"
+                        ],
+                        "responses": [
+                                "1.The institution has adequate facilities for teaching - learning. viz., classrooms, laboratories, computing equipment, etc \n 2.support facilities - laboratory, library, sports complex, computers, classrooms etc. \n 3.The institution has adequate facilities for sports, games (indoor, outdoor),gymnasium, yoga centre etc., and cultural activities \n 4. Library as a Learning Resource-Library is automated using Integrated Library Management System (ILMS) \n 5.Collection of rare books, manuscripts, special reports or any other knowledge resource for library enrichment \n 6.Institution frequently updates its IT facilities including Wi-Fi ,Maintenance of Campus Infrastructure \n 7.There are established systems and procedures for maintaining and utilizing physical, academic and support facilities - laboratory, library, sports complex, computers, classrooms etc."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "college intake",
+                        "patterns": [
+                                "max number of students",
+                                "number of seats per branch",
+                                "number of seats in each branch",
+                                "maximum number of seats",
+                                "maximum students intake",
+                                "What is college intake",
+                                "how many stundent are taken in each branch",
+                                "seat allotment",
+                                "seats"
+                        ],
+                        "responses": [
+                                "For CSE, ECE  240 per branch,\nfor EIE,EEE,MECH,CIVIL 120 per branch,\nfor IT 180 per branch \n For newly added branches CSBS,CSDS,CSAIML,CSIOT,CS cyber security - 60 per branch"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "uniform",
+                        "patterns": [
+                                "college dress code",
+                                "college dresscode",
+                                "what is the uniform",
+                                "can we wear casuals",
+                                "Does college have an uniform",
+                                "Is there any uniform",
+                                "uniform",
+                                "what about uniform",
+                                "do we have to wear uniform"
+                        ],
+                        "responses": [
+                                "CUvjiet does not have uniform"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "salutaion",
+                        "patterns": [
+                                "okk",
+                                "okie",
+                                "nice work",
+                                "well done",
+                                "good job",
+                                "thanks for the help",
+                                "Thank You",
+                                "its ok",
+                                "Thanks",
+                                "k",
+                                "ok",
+                                "okay"
+                        ],
+                        "responses": [
+                                "I am glad I helped you",
+                                "welcome, anything else i can assist you with?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "task",
+                        "patterns": [
+                                "what can you do",
+                                "what are the thing you can do",
+                                "things you can do",
+                                "what can u do for me",
+                                "how u can help me",
+                                "why i should use you"
+                        ],
+                        "responses": [
+                                "I could answer to low-intermediate questions regarding college",
+                                "You can ask me questions regarding college, and i will try to answer them"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag":"ragging",
+                        "patterns":[
+                                "ragging",
+                                "is ragging practice active in college",
+                                "does college have any antiragging facility",
+                                "is there any ragging cases",
+                                "is ragging done here",
+                                "ragging juniors",
+                                "ragging history",
+                                "ragging incidents"
+                                
+                        ],
+                        "responses": [
+                                "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+                        ]
+
+                },
+               
+                {
+                        "tag":"transport",
+                        "patterns":[
+                                " bus route",
+                                "mode of transportation",
+                                "how to get to college",
+                                "buses for college",
+                                "college buses",
+                                "bus routes",
+                                "list of buses for travelling"       
+                                
+                        ],
+                        "responses":[
+                                "Bus facility available for each route in Hyderabad.For more information visit help desk at Patrons bhavan ground floor"
+                        ]
+                },
+               
+                {
+                        "tag": "staff details",
+                        "patterns": [
+                                "Can I get the details of Principal & Faculty Members at Chandigarh University?",
+                                "faculty details at CU",
+                                "faculty",
+                                "Staff details",
+                                "staff",
+                                "faculty details"
+                        ],
+                        "responses": ["Visit http://www.chandigarhuniversity.com to know about staff details."]
+                 }
+                
+        ]
+}

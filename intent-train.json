@@ -1,0 +1,295 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hey","How are you","Good day","Hello","Is anyone there?"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {"tag": "CU",
+      "patterns": [
+        "Tell me about Chandigarh University",
+        "Give me information about Chandigarh University"
+      ],
+      "responses": [
+        "Chandigarh University) is an engineering college in Gharuan, India recognized by All India Council for Technical Education(AICTE) and affiliated to the Jawaharlal Nehru Technological University, Hyderabad."]
+    },
+    {
+      "tag": "clubs",
+      "patterns": [
+        "What are different clubs in college?" ,
+        "what are extra-circular activities in college?",
+        "clubs in CU"
+      ],
+      "responses": [
+        "There are 9 clubs 1)STENTORIAN - ENGLISH LITERATURE CLUB 2) VIGNANA JYOTHI SAHITIVANAM - TELUGU LITERATURE CLUB ;3)VJ THEATRO ; 4) DRAMATRIX;5)SCINTILLATE -PHOTOGRAPHY;6)CREATIVE ARTS - ARTS CLUB; 7)LIWE WIRE- DANCE CLUB ; 8) NSS - SOCIAL SERVICE CLUB ; 9)CRESCENDO- MUSIC CLUB" ,
+        "There are total 9 extra circular activities clubs in Chandigarh University and many more co circular clubs."
+      ]
+    }, 
+      
+    {
+        "tag":"literary clubs",
+        "patterns":[
+            "What are the literary clubs in college?",
+            "How many literary clubs are there in college?",
+            "What are the literature clubs in college?"
+        ],
+        "responses": [
+            "There are two literary clubs in Chandigarh University\n 1.Stentorian-English Literature club \n 2.Sahitivanam-Telugu Literature club "
+            
+        ]
+        
+    },
+      
+    { 
+        "tag":"english club",
+        "patterns": [
+            "What is Stentorian ?",
+            "What is english literature club in College?"
+        ],
+        "responses": [
+            "Sentorian is the English literature club of Chandigarh University. It is the place where students meet to read and write.The literary club has been an ongoing and active club for several years.It is based upon using the creativity skills it takes to be a writer."
+
+        ]
+    },
+      
+    { 
+        "tag":"telugu club",
+        "patterns": [
+            "What is telugu literature club in Chandigarh University?",
+            "What is Sahitivanam in Chandigarh University?"
+        ],
+        "responses": [
+            "It is Sahitivanam-Telugu literature club of Chandigarh University,place where students meet to read and write.\n \t \tThe literary club has been an ongoing and active club for several years.\nIt is based upon using the creativity skills it takes to be a writer."
+       
+         ]
+    },
+      
+    {
+        "tag":"arts club",
+        "patterns":[
+            "what is the arts club in Chandigarh University?",
+            "Creative Arts"
+            
+        ],
+        "responses": [
+            "Creative Arts- arts club of Chandigarh University.Creative Arts organized different events and activities to bring up ones talent in arts and at the same time it has built the different models at the time of annual fests of Chandigarh University."
+        ]
+     },
+    
+    {
+        "tag":"dance club",
+        "patterns":[
+            "what is the dance club in Chandigarh University?",
+            "what is the choreo club in Chandigarh University?",
+            "LiveWire"
+            
+        ],
+        "responses": [
+            "LiveWire- dance club of Chandigarh University.Livewire is an all-style collegiate dance crew from CUvjeit.\nThe club has participated in different competitions across India and won several rewards and recognition."
+        ]
+     },
+    
+    {
+        "tag":"music club",
+        "patterns":[
+            "what is the music club in Chandigarh University?",
+            "what is the voice club in Chandigarh University?",
+            "Cresendo"
+            
+        ],
+        "responses": [
+            "Cresendo-music club of Chandigarh University.Cresendo consists of highly talented keyboard players,guitarists',vocal's,flutists and others.\nThe club has participated in different competitions across India and won several rewards and recognition."
+        ]
+     },
+    {
+        "tag":"photography club",
+        "patterns":[
+            "what is the photography club in Chandigarh University?",
+            "Scintillate"
+            
+        ],
+        "responses": [
+            "Scinitallate-the offical photography club of Chandigarh University.Club has highly talented people in clicking pictures with perfect detailing and picture quality.Scintillate organized different events like selfie booth and b/w picture at time of annual fests."
+        ]
+     },
+     
+      {
+        "tag":"social club",
+        "patterns":[
+            "what is the social service club in Chandigarh University?",
+            "what is the volunteering club in Chandigarh University?"
+            
+            
+        ],
+        "responses": [
+            " is the social club of Chandigarh University.\nNss organised different events like be a teacher,blood donation camp,harithavanam,vertical garden,ganesh idol making,fist full of rice etc.\nThe club helped many needy people with different activities."
+        ]
+     },
+      
+      {
+        "tag":"shortfilm club",
+        "patterns":[
+            "what is the short film club in Chandigarh University?",
+            "Vjteatro"
+            
+        ],
+        "responses": [
+            "It is the short film club of Chandigarh University.Vjteatro is the biggest short film college club in Telangana.\nIt has released different short films like dochay,how I met myself,dope,priya,ek villain etc"
+        ]
+     },
+      {
+        "tag":"drama club",
+        "patterns":[
+            "what is the drama club in Chandigarh University?",
+           
+            "dramatrix"
+            
+        ],
+        "responses": [
+            "It is the offical drama club of Chandigarh University.It is the club where actions meets passion and club has done different live performances." 
+        ]
+     },
+      
+    {
+      "tag": "department",
+      "patterns":[
+        "What are the different departments in Chandigarh University?",
+        "Different branches in Chandigarh University?",
+      "How many departments are there in Chandigarh University?"], 
+      "responses": [
+        "There are 9 Departments in Chandigarh University 1)IT 2)CIVIL 3)EEE 4)MECHANICAL 5)ECE 6)CSE 7)EIE 8)AE 9)HUMANITY AND SCIENCES"]
+        },
+    {
+      "tag":"admissions",
+      "patterns":[
+        "what is the admission process at Chandigarh University?","How can I get into Chandigarh University?"
+      ],
+      "responses":["A Student at CU can be admitted in 3 ways 1)A-cat(eamcet,spot admissions) 2)B-cat(jee main) 3)Nri(12th marks).Last year cutoff ranks are provided for reference http://www Chandigarh University.ac.in/download/admissions/FIRST_LAST_EAMCET_2019_RANKS.pdf"]
+    },
+      
+    {
+      "tag": "IT HOD",
+      "patterns":[
+        "Who is the HOD of IT department?", 
+        "Who is the Head of the department in IT department?",
+        "Who is the Head of the department of Information Technology?",
+        "What is IT HOD name?",
+        "who is the head of IT department?"
+      ], 
+      "responses": [
+        "IT HOD - Dr. G. Suresh Reddy",
+        "The head of IT department is Dr. G. Suresh Reddy.",
+      "Dr. G. Suresh Reddy is head of IT department and visit  http://www Chandigarh University.ac.in/hodit.pdf to know more."]
+    },
+
+    {
+      "tag": "IT Department",
+      "patterns": ["Give me information about IT Department","What do you know about IT Department?","Placement in IT Department?",
+                   "How many people got placed from IT Department?"],
+      "responses": ["visit http://www Chandigarh University.ac.in/it.php"]
+    },
+    {
+      "tag": "CIVIL Department",
+      "patterns": ["Give me information about CIVIL Department","Civil","Civil dept"],
+      "responses": ["visit http://www Chandigarh University.ac.in/civil.php"]
+    },
+    {
+      "tag": " EEE Department",
+      "patterns": ["Give me information about EEE Department","eee","eee dept"],
+      "responses": ["visit http://www Chandigarh University.ac.in/eee.php"]
+    }, 
+    {
+      "tag": "MECHANICAL Department",
+      "patterns": ["Give me information about MECHANICAL Department","mechanical","mechanical dept"],
+      "responses": ["visit http://www Chandigarh University.ac.in/mech.php"]
+    },
+    {
+      "tag": "ECE Department",
+      "patterns": ["Give me information about ECE Department","ECE","ECE Dept"],
+      "responses": ["visit http://www Chandigarh University.ac.in/ece.php"]
+    },
+    {
+      "tag": "CSE Department",
+      "patterns": ["Give me information about CSE Department"],
+      "responses": ["visit <a href='http://www Chandigarh University.ac.in/cse.php'>CSE department</a>"]
+    },
+        
+    {
+      "tag": "EIE Department",
+      "patterns": ["Give me information about EIE Department"],
+      "responses": ["visit http://www.Chandigarh University.ac.in/eie.php"]
+    },
+    {
+      "tag": "AE Department",
+      "patterns": ["Give me information about AE Department"],
+      "responses": ["visit http://www.Chandigarh University.ac.in/ae.php"]
+    },
+    {
+      "tag": "H&S Department",
+      "patterns": ["Give me information about H&S Department"],
+      "responses": ["visit http://www.Chandigarh University.ac.in/has.php"]
+    },
+    {
+      "tag": "placement summary",
+      "patterns": ["Placement summary" ,"which department have highest placements?", "Give me information about placements at Chandigarh University"],
+      "responses": ["Visit http://www.Chandigarh University.ac.in/placement.php"]
+    },
+    {
+      "tag": "placement package",
+      "patterns": ["which company provides highest package at Chandigarh University?","highest package" ],
+      "responses": ["Amazon SDE Offered about 28.75 Lakhs per annum package."]
+    },
+    {
+      "tag": "placement companies",
+      "patterns": ["How many companies visited Chandigarh University?" ],
+      "responses": ["85 Global Companies (26 Core Companies) Recruited 955 Students from 2020 Graduating Batch."]
+    },
+    {
+      "tag":"placement preparation",
+      "patterns":["how to start placements preparation?","what is the placement written test pattern?"],
+      "responses":["All the best for your placements,please visit https://www.Chandigarh University.ac.in/login"]
+    },
+    {
+      "tag": "Hostel details",
+      "patterns": ["Can I know the details about Chandigarh University hostel?","Does Chandigarh University have college hostel?","CU Hostel details", "Chandigarh University hostel details","CU hostel information"],
+      "responses": ["Visit http:/ Chandigarh University.ac.in/hostel.php"]
+    },
+    {
+      "tag": "staff details",
+      "patterns": ["Can I get the details of Principal & Faculty Members at Chandigarh University?","faculty details at CU"],
+      "responses": ["Visit http:/ Chandigarh University.ac.in/jntudept.pdf"]
+    },
+        
+    {
+      "tag":"eduprime",
+      "patterns": ["how to check my attendance?","how to select open elective?","where to check my mid marks?","how to give feedback?"],
+      "responses": ["please visit :http://automation Chandigarh University.ac.in/EduPrime2"]
+    },
+    {
+      "tag":"food",
+      "patterns":["what types of food available at CU?","what kind of food is available at CU?"],
+      "responses":["we have different types of stalls like 1)fast food 2)bakery 3)soft drinks 4)Regular meals 5)coffee shop 6)cafeteria"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    }
+  ]
+}
