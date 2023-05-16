@@ -24,4 +24,4 @@ LOSS
 
 ![image](https://user-images.githubusercontent.com/47324169/120810843-03beb580-c569-11eb-8ca4-695f8d5008c0.png)
 
-
+![image]C:\Users\raiav\OneDrive\Pictures\Screenshots\Screenshot (44).png
